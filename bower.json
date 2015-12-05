@@ -1,0 +1,14 @@
+{
+  "name": "unbiciclista",
+  "homepage": "http://primerproyecto.github.io/unbiciclista/",
+  "authors": [
+    "unbiciclista <primerproyecto@gmail.com>"
+  ],
+  "description": "",
+  "main": "index.html",
+  "moduleType": [],
+  "license": "MIT",
+  "dependencies": {
+    "vendor-icons": "~0.4.0"
+  }
+}
