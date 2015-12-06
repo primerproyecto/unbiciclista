@@ -21,4 +21,11 @@ $color: red;
 @import "style";
 @import "responsive";
 @import "colores";
+@import "variables";
+.flext {
+	display: flex;
+}
+.fashion-subtitle {
+	width: auto !important;
+}
 

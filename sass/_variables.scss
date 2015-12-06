@@ -1,0 +1,15 @@
+@import "compass/utilities/sprites";
+
+// SPRITE
+@import "vendor/*.png";
+@include all-vendor-sprites;
+#approach div.vendor {
+	display: flex;
+	flex-direction: column;
+}
+#approach div.vendor i{
+	min-height: 128px !important;
+	min-width: 128px !important;
+	display: block;
+	align-self: center;
+}
