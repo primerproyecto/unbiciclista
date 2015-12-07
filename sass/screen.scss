@@ -23,15 +23,35 @@ $color: red;
 @import "responsive";
 @import "colores";
 @import "variables";
+
 .flext {
 	display: flex;
 }
 .fashion-subtitle {
 	width: auto !important;
 }
-#gradient1 {
-	@include background-image(radial-gradient(center, ellipse cover, rgba(248,80,50,1) 0%, rgba(241,111,92,0.7) 36%, rgba(240,47,23,0.29) 86%, rgba(231,56,39,0.18) 100%));
-}
 #contact-us textarea {
     min-height: 224px !important;
+}
+.quehago .text-med {
+	font-size: 16px !important;
+    line-height: 28px !important;
+    color: $color !important;
+}
+.quehago img {
+	@include border-radius(2px);
+}
+#paginassencillas {
+	.bg-black{
+		background: $color-blanco !important;
+	}
+	h1, p, a {
+	color: $color-blanco !important;
+	}
+	.highlight-button-black-border {
+		border: $color-blanco !important;
+	}
+	a:hover{
+		color: $color4 !important;
+	}
 }

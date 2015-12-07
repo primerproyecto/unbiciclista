@@ -9,6 +9,7 @@
   "moduleType": [],
   "license": "MIT",
   "dependencies": {
-    "vendor-icons": "~0.4.0"
+    "vendor-icons": "~0.4.0",
+    "hover": "~2.0.2"
   }
 }
