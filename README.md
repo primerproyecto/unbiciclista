@@ -14,7 +14,7 @@ $color3: #e6af2a; //rgba(230, 175, 42, 100)
 $color4: #70bd5b; //rgba(112, 189, 91, 100)
 $color5: #f6f6f6; //rgba(246, 246, 246, 100)
 ```
-![alt text](paleta-colores.png "Logo Title Text 1")
+![alt text](images/paleta-colores.png "Logo Title Text 1")
 
 ##Gracias a .. ##
 Hay mucho software por ahí muy bueno y sencillo de utilizar. Para este site he usado los siguientes scripts o librerías.
