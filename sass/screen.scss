@@ -3,6 +3,7 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
+@import "compass";
 @import "compass/reset";
 
 $color: red;
@@ -28,4 +29,9 @@ $color: red;
 .fashion-subtitle {
 	width: auto !important;
 }
-
+#gradient1 {
+	@include background-image(radial-gradient(center, ellipse cover, rgba(248,80,50,1) 0%, rgba(241,111,92,0.7) 36%, rgba(240,47,23,0.29) 86%, rgba(231,56,39,0.18) 100%));
+}
+#contact-us textarea {
+    min-height: 224px !important;
+}

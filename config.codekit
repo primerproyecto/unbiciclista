@@ -9882,6 +9882,15 @@
 		"outputPathIsSetByUser": 0,
 		"processed": 0
 		},
+	"\/concacto-ok.html": {
+		"fileType": 8192,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"inputAbbreviatedPath": "\/concacto-ok.html",
+		"outputAbbreviatedPath": "No Output Path",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0
+		},
 	"\/config.rb": {
 		"fileType": 131072,
 		"ignore": 0,
@@ -10244,6 +10253,28 @@
 		"initialSize": 278,
 		"inputAbbreviatedPath": "\/images\/bullets2.png",
 		"outputAbbreviatedPath": "\/images\/bullets2.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/clientes\/aviles.png": {
+		"fileType": 32768,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 70703,
+		"inputAbbreviatedPath": "\/images\/clientes\/aviles.png",
+		"outputAbbreviatedPath": "\/images\/clientes\/aviles.png",
+		"outputPathIsOutsideProject": 0,
+		"outputPathIsSetByUser": 0,
+		"processed": 0
+		},
+	"\/images\/clientes\/cabecera-web.jpg": {
+		"fileType": 16384,
+		"ignore": 0,
+		"ignoreWasSetByUser": 0,
+		"initialSize": 416413,
+		"inputAbbreviatedPath": "\/images\/clientes\/cabecera-web.jpg",
+		"outputAbbreviatedPath": "\/images\/clientes\/cabecera-web.jpg",
 		"outputPathIsOutsideProject": 0,
 		"outputPathIsSetByUser": 0,
 		"processed": 0
