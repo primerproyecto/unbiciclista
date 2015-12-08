@@ -23,6 +23,11 @@ $color: red;
 @import "responsive";
 @import "colores";
 @import "variables";
+@import "sassmatic";
+
+#gradient1.bg-green {
+	background: $color7 !important;
+}
 
 .flext {
 	display: flex;
@@ -40,18 +45,18 @@ $color: red;
 }
 .quehago img {
 	@include border-radius(2px);
+	@include filter-vignette($color3, 70%, 90%, 3rem); // Color, start, stop and inset boxshadow
 }
-#paginassencillas {
-	.bg-black{
-		background: $color-blanco !important;
-	}
-	h1, p, a {
-	color: $color-blanco !important;
-	}
-	.highlight-button-black-border {
-		border: $color-blanco !important;
-	}
-	a:hover{
-		color: $color4 !important;
-	}
+#myCarousel3 a {
+@include link-colors($color5, $color6, $color5, $color5);
+}
+#approach {
+	 background-color: #f6f6f6;
+	 h1, h2, a {
+	 	color: $color !important;
+	 }
+}
+
+.fondo-degradado{
+	 @include background-image(radial-gradient(45px 45px, cyan 10px, dodgerblue 30px));
 }

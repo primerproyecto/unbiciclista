@@ -1,0 +1,50 @@
+/*
+Error: Invalid CSS after "#252525": expected expression (e.g. 1px, bold), was "; //rgba(37, 37..."
+        on line 3 of /Applications/MAMP/htdocs/github/unbiciclista-gh/sass/palette.sass
+
+1: /* Coolors Exported Palette - coolors.co/252525-c24742-e6af2a-adc1bf-f6f6f6 *\/
+2: 
+3: $color1: #252525; //rgba(37, 37, 37, 100)
+4: $color2: #c24742; //rgba(194, 71, 66, 100)
+5: $color3: #e6af2a; //rgba(230, 175, 42, 100)
+6: $color4: #adc1bf; //rgba(173, 193, 191, 100)
+7: $color5: #f6f6f6; //rgba(246, 246, 246, 100)
+
+Backtrace:
+/Applications/MAMP/htdocs/github/unbiciclista-gh/sass/palette.sass:3
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/scss/parser.rb:1161:in `expected'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/lexer.rb:221:in `expected!'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:600:in `assert_done'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:63:in `parse'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script/parser.rb:183:in `parse'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/script.rb:27:in `parse'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:1130:in `parse_script'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:753:in `parse_variable'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:641:in `parse_line'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:535:in `build_tree'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:554:in `block in append_children'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:553:in `each'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:553:in `append_children'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:406:in `_to_tree'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/engine.rb:278:in `render'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass-import-once/lib/compass/import-once/engine.rb:17:in `block in render'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass-import-once/lib/compass/import-once/engine.rb:29:in `with_import_scope'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass-import-once/lib/compass/import-once/engine.rb:16:in `render'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:492:in `update_stylesheet'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:215:in `block in update_stylesheets'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:209:in `each'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/scss/lib/sass/plugin/compiler.rb:209:in `update_stylesheets'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/sass_compiler.rb:40:in `compile!'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/commands/update_project.rb:49:in `perform'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/commands/base.rb:18:in `execute'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/commands/project_base.rb:19:in `execute'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/exec/sub_command_ui.rb:43:in `perform!'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass/lib/compass/exec/sub_command_ui.rb:15:in `run!'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:52:in `block in <main>'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:66:in `call'
+/Users/apple/Downloads/CodeKit.app/Contents/Resources/engines/compass/compass/bin/compass:66:in `<main>'
+*/
+body:before {
+  white-space: pre;
+  font-family: monospace;
+  content: "Error: Invalid CSS after \"#252525\": expected expression (e.g. 1px, bold), was \"; //rgba(37, 37...\"\A         on line 3 of /Applications/MAMP/htdocs/github/unbiciclista-gh/sass/palette.sass\A \A 1: /* Coolors Exported Palette - coolors.co/252525-c24742-e6af2a-adc1bf-f6f6f6 */\A 2: \A 3: $color1: #252525; //rgba(37, 37, 37, 100)\A 4: $color2: #c24742; //rgba(194, 71, 66, 100)\A 5: $color3: #e6af2a; //rgba(230, 175, 42, 100)\A 6: $color4: #adc1bf; //rgba(173, 193, 191, 100)\A 7: $color5: #f6f6f6; //rgba(246, 246, 246, 100)"; }

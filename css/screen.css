@@ -28025,6 +28025,54 @@ thead th.first {
   display: block;
   align-self: center; }
 
+/* =========================================
+Filter Washout 
+========================================= */
+/* =========================================
+Filter Nikki
+========================================= */
+/* =========================================
+Filter Deadwood 
+========================================= */
+/* =========================================
+Filter SanFran 
+========================================= */
+/* =========================================
+Filter Noire 
+========================================= */
+/* =========================================
+Filter Neptune 
+========================================= */
+/* =========================================
+Filter Lomo 
+========================================= */
+/* =========================================
+Filter Warming 
+========================================= */
+/* =========================================
+Filter Cooling 
+========================================= */
+/* =========================================
+Filter Pro
+========================================= */
+/* =========================================
+Filter Casablanca 
+========================================= */
+/* =========================================
+Filter Glassic 
+========================================= */
+/* =========================================
+Filter Custom
+========================================= */
+/* =========================================
+Filter Color
+========================================= */
+/* =========================================
+Filter Vignette
+========================================= */
+#gradient1.bg-green {
+  background: #ADC1BF !important; }
+
 .flext {
   display: flex; }
 
@@ -28043,12 +28091,31 @@ thead th.first {
   -moz-border-radius: 2px;
   -webkit-border-radius: 2px;
   border-radius: 2px; }
+  .quehago img:after {
+    background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjUwJSIgY3k9IiIgcj0iOTAlIj48c3RvcCBvZmZzZXQ9IjcwJSIgc3RvcC1jb2xvcj0iI2IyYzNiZCIgc3RvcC1vcGFjaXR5PSIwLjAiLz48c3RvcCBvZmZzZXQ9IjkwJSIgc3RvcC1jb2xvcj0iI2IyYzNiZCIgc3RvcC1vcGFjaXR5PSIwLjkiLz48L3JhZGlhbEdyYWRpZW50PjwvZGVmcz48cmVjdCB4PSIwIiB5PSIwIiB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSJ1cmwoI2dyYWQpIiAvPjwvc3ZnPiA=');
+    background-size: 100%;
+    background-image: -moz-radial-gradient(center, ellipse cover, rgba(178, 195, 189, 0) 70%, rgba(178, 195, 189, 0.9) 90%);
+    background-image: -webkit-radial-gradient(center, ellipse cover, rgba(178, 195, 189, 0) 70%, rgba(178, 195, 189, 0.9) 90%);
+    background-image: radial-gradient(ellipse cover at center, rgba(178, 195, 189, 0) 70%, rgba(178, 195, 189, 0.9) 90%);
+    box-shadow: inset 0 0 3rem #b2c3bd; }
 
-#paginassencillas .bg-black {
-  background: #ffffff !important; }
-#paginassencillas h1, #paginassencillas p, #paginassencillas a {
-  color: #ffffff !important; }
-#paginassencillas .highlight-button-black-border {
-  border: #ffffff !important; }
-#paginassencillas a:hover {
-  color: #c24742 !important; }
+#myCarousel3 a {
+  color: #f6f6f6; }
+  #myCarousel3 a:visited {
+    color: #f6f6f6; }
+  #myCarousel3 a:hover {
+    color: #f4f4f4; }
+  #myCarousel3 a:active {
+    color: #f6f6f6; }
+
+#approach {
+  background-color: #f6f6f6; }
+  #approach h1, #approach h2, #approach a {
+    color: #252525 !important; }
+
+.fondo-degradado {
+  background-image: url('data:image/svg+xml;base64,PD94bWwgdmVyc2lvbj0iMS4wIiBlbmNvZGluZz0idXRmLTgiPz4gPHN2ZyB2ZXJzaW9uPSIxLjEiIHhtbG5zPSJodHRwOi8vd3d3LnczLm9yZy8yMDAwL3N2ZyI+PGRlZnM+PHJhZGlhbEdyYWRpZW50IGlkPSJncmFkIiBncmFkaWVudFVuaXRzPSJ1c2VyU3BhY2VPblVzZSIgY3g9IjQ1cHgiIGN5PSI0NXB4IiByPSIzMCUiPjxzdG9wIG9mZnNldD0iMzMuMzMzMzMlIiBzdG9wLWNvbG9yPSIjMDBmZmZmIi8+PHN0b3Agb2Zmc2V0PSIxMDAlIiBzdG9wLWNvbG9yPSIjMWU5MGZmIi8+PC9yYWRpYWxHcmFkaWVudD48L2RlZnM+PHJlY3QgeD0iMCIgeT0iMCIgd2lkdGg9IjEwMCUiIGhlaWdodD0iMTAwJSIgZmlsbD0idXJsKCNncmFkKSIgLz48L3N2Zz4g');
+  background-size: 100%;
+  background-image: -moz-radial-gradient(45px 45px, #00ffff 10px, #1e90ff 30px);
+  background-image: -webkit-radial-gradient(45px 45px, #00ffff 10px, #1e90ff 30px);
+  background-image: radial-gradient(45px 45px, #00ffff 10px, #1e90ff 30px); }

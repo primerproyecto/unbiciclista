@@ -1083,113 +1083,12 @@ $(document).ready(function () {
     //fit video  - END CODE
     /*==============================================================*/
 
-    /*==============================================================*/
-    //google map - mouse scrolling wheel behavior - START CODE
-    /*==============================================================*/
-    // you want to enable the pointer events only on click;
 
-    $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none on doc ready
-    $('#canvas1').on('click', function () {
-        $('#map_canvas1').removeClass('scrolloff'); // set the pointer events true on click
-    });
-    // you want to disable pointer events when the mouse leave the canvas area;
-
-    $("#map_canvas1").mouseleave(function () {
-        $('#map_canvas1').addClass('scrolloff'); // set the pointer events to none when mouse leaves the map area
-    });
     /*==============================================================*/
     //google map - mouse scrolling wheel behavior - END CODE
     /*==============================================================*/
 
-    /*==============================================================*/
-    //Search - START CODE
-    /*==============================================================*/
-    $("input.search-input").bind("keypress", function (event) {
-        if (event.which == 13 && !isMobile) {
-            $("button.search-button").click();
-            event.preventDefault();
-        }
-    });
-    $("input.search-input").bind("keyup", function (event) {
-        if ($(this).val() == null || $(this).val() == "") {
-            $(this).css({ "border": "none", "border-bottom": "2px solid red" });
-        }
-        else {
-            $(this).css({ "border": "none", "border-bottom": "2px solid #000" });
-        }
-    });
-    function validationSearchForm() {
-        var error = true;
-        $('#search-header input[type=text]').each(function (index) {
-            if (index == 0) {
-                if ($(this).val() == null || $(this).val() == "") {
-                    $("#search-header").find("input:eq(" + index + ")").css({ "border": "none", "border-bottom": "2px solid red" });
-                    error = false;
-                }
-                else {
-                    $("#search-header").find("input:eq(" + index + ")").css({ "border": "none", "border-bottom": "2px solid #000" });
-                }
-            }
-        });
-        return error;
-    }
-    $("form.search-form, form.search-form-result").submit(function (event) {
-        var error = validationSearchForm();
-        if (error) {
-            var action = $(this).attr('action');
-            action = action == '#' || action == '' ? 'blog-grid-3columns.html' : action;
-            action = action + '?' + $(this).serialize();
-            window.location = action;
-        }
-
-        event.preventDefault();
-    });
-    $('.navbar .navbar-collapse a.dropdown-toggle, .accordion-style1 .panel-heading a, .accordion-style2 .panel-heading a, .accordion-style3 .panel-heading a, .toggles .panel-heading a, .toggles-style2 .panel-heading a, .toggles-style3 .panel-heading a, a.carousel-control, .nav-tabs a[data-toggle="tab"], a.shopping-cart').click(function (e) {
-        e.preventDefault();
-    });
-    $('body').on('touchstart click', function (e) {
-        if ($(window).width() < 992) {
-            if (!$('.navbar-collapse').has(e.target).is('.navbar-collapse') && $('.navbar-collapse').hasClass('in') && !$(e.target).hasClass('navbar-toggle')) {
-                $('.navbar-collapse').collapse('hide');
-            }
-        }
-        else {
-            if (!$('.navbar-collapse').has(e.target).is('.navbar-collapse') && $('.navbar-collapse ul').hasClass('in')) {
-                console.log(this);
-                $('.navbar-collapse').find('a.dropdown-toggle').addClass('collapsed');
-                $('.navbar-collapse').find('ul.dropdown-menu').removeClass('in');
-                $('.navbar-collapse a.dropdown-toggle').removeClass('active');
-            }
-        }
-    });
-    $('.navbar-collapse a.dropdown-toggle').on('touchstart', function (e) {
-        $('.navbar-collapse a.dropdown-toggle').not(this).removeClass('active');
-        if ($(this).hasClass('active'))
-            $(this).removeClass('active');
-        else
-            $(this).addClass('active');
-    });
-
-    $("button.navbar-toggle").click(function () {
-        if (isMobile) {
-            jQuery(".cart-content").css('opacity', '0');
-            jQuery(".cart-content").css('visibility', 'hidden');
-
-        }
-    });
-    $("a.dropdown-toggle").click(function () {
-        if (isMobile) {
-            jQuery(".cart-content").css('opacity', '0');
-            jQuery(".cart-content").css('visibility', 'hidden');
-
-        }
-    });
-
-
-
-    /*==============================================================*/
-    //Search - END CODE
-    /*==============================================================*/
+    
 
     /*==============================================================*/
     //Parallax - START CODE
@@ -1731,7 +1630,14 @@ function SetParallax() {
 /*==============================================================*/
 //Parallax - END CODE
 /*==============================================================*/
-
+$(window).resize(function() {
+  if ($(this).width() >= 780) {
+    $('.iphone6plus').addClass('landscape');
+  }
+  else if ($(this).width() < 780) {
+    $('.iphone6plus').removeClass('landscape');
+  }
+});
 /*==============================================================*/
 //Mobile Toggle Control - START CODE
 /*==============================================================*/
