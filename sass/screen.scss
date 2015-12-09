@@ -3,10 +3,10 @@
  * Import this file using the following HTML or equivalent:
  * <link href="/stylesheets/screen.css" media="screen, projection" rel="stylesheet" type="text/css" /> */
 
+
 @import "compass";
 @import "compass/reset";
-
-$color: red;
+@import "../bower_components/compass-breakpoint/stylesheets/_breakpoint.scss";
 
 @import "animate";
 @import "bootstrap";
@@ -25,6 +25,8 @@ $color: red;
 @import "variables";
 @import "sassmatic";
 
+
+$tabletas: 600px;
 #gradient1.bg-green {
 	background: $color7 !important;
 }
@@ -56,7 +58,43 @@ $color: red;
 	 	color: $color !important;
 	 }
 }
+.screen {	
+ display: flex !important;
+ align-items: center;
+@include background-image(linear-gradient($color, $color6));}
 
-.fondo-degradado{
-	 @include background-image(radial-gradient(45px 45px, cyan 10px, dodgerblue 30px));
+.degradado {
+}
+#caracteristicas {
+	h1 {
+		color: $color6;
+	}
+	p{
+		color: $color-blanco;
+		font-size: 130%;
+	}
+	.row {
+		display: block;
+		@include breakpoint($tabletas){
+			display: flex;
+		}
+	}
+}
+#myCarousel {
+	h1 {
+		background: rgba($color6, 0.5);
+		display: inline;
+		padding: 10px 5px;
+	}
+	a.btn {
+		background: rgba($color6, 0.5); 
+	}
+}
+footer {
+	
+	.footer-bottom{
+		a {
+		font-size: 180%;
+	}
+	}
 }

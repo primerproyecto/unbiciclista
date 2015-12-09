@@ -1631,10 +1631,10 @@ function SetParallax() {
 //Parallax - END CODE
 /*==============================================================*/
 $(window).resize(function() {
-  if ($(this).width() >= 780) {
+  if ($(this).width() >= 1004) {
     $('.iphone6plus').addClass('landscape');
   }
-  else if ($(this).width() < 780) {
+ else if ($(this).width() < 1004) {
     $('.iphone6plus').removeClass('landscape');
   }
 });

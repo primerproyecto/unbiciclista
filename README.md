@@ -6,7 +6,7 @@ Página estática alojada en github y la cual está abierta a colaboraciones de 
 ## Colores ##
 La paleta de colores de esta página es https://coolors.co/app/252525-c24742-e6af2a-70bd5b-f6f6f6
 ```sass
-/* Coolors Exported Palette - coolors.co/252525-c24742-e6af2a-70bd5b-f6f6f6 */
+/* Coolors Exported Palette - cohttps://coolors.co/app/252525-c24742-e6af2a-adc1bf-f6f6f6 */
 
 $color1: #252525; //rgba(37, 37, 37, 100)
 $color2: #c24742; //rgba(194, 71, 66, 100)
@@ -21,3 +21,4 @@ Hay mucho software por ahí muy bueno y sencillo de utilizar. Para este site he 
 
 1. Fotos obtenidas de unsplash en [https://unsplash.com](https://unsplash.com)
 2. Para los iconos de las librías y todo ese material, el estupendo respositorio de [T1st3]( https://github.com/T1st3/vendor-icons)
+3. Devices.css ...para mostrar dispositivos móviles.[Devices.css](http://marvelapp.github.io/devices.css/)

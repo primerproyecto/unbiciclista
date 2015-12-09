@@ -11,6 +11,7 @@
   "dependencies": {
     "vendor-icons": "~0.4.0",
     "hover": "~2.0.2",
-    "devices.css": "*"
+    "devices.css": "*",
+    "compass-breakpoint": "breakpoint-sass#~2.6.1"
   }
 }
