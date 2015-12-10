@@ -24,6 +24,8 @@
 @import "colores";
 @import "variables";
 @import "sassmatic";
+@import "../bower_components/devices.css/assets/scss/devices.scss";
+@import "../bower_components/hover/scss/hover.scss";
 
 
 $tabletas: 600px;
@@ -56,6 +58,9 @@ $tabletas: 600px;
 	 background-color: #f6f6f6;
 	 h1, h2, a {
 	 	color: $color !important;
+	 }
+	 i{
+	 	@include border-radius(3px);
 	 }
 }
 .screen {	
