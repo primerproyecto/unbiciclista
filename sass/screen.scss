@@ -12,7 +12,6 @@
 @import "bootstrap";
 @import "et-line-icons";
 @import "font-awesome.min";
-@import "extralayers";
 @import "settings";
 @import "magnific-popup";
 @import "owl.carousel";
@@ -32,7 +31,11 @@ $tabletas: 600px;
 #gradient1.bg-green {
 	background: $color7 !important;
 }
-
+.enviook h1 {
+	padding: 0 !important;
+	line-height: 45px !important;
+	background: rgba(white, 0.8) !important;
+}
 .flext {
 	display: flex;
 }
@@ -47,7 +50,7 @@ $tabletas: 600px;
     line-height: 28px !important;
     color: $color !important;
 }
-.quehago img {
+.quehago img, .gallery-img img {
 	@include border-radius(2px);
 	@include filter-vignette($color3, 70%, 90%, 3rem); // Color, start, stop and inset boxshadow
 }
@@ -63,7 +66,7 @@ $tabletas: 600px;
 	 	@include border-radius(3px);
 	 }
 }
-.screen {	
+.screen {
  display: flex !important;
  align-items: center;
 @include background-image(linear-gradient($color, $color6));}
@@ -92,11 +95,11 @@ $tabletas: 600px;
 		padding: 10px 5px;
 	}
 	a.btn {
-		background: rgba($color6, 0.5); 
+		background: rgba($color6, 0.5);
 	}
 }
 footer {
-	
+
 	.footer-bottom{
 		a {
 		font-size: 180%;
